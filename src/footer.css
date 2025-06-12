@@ -1,21 +1,6 @@
-.App {
-  font-family: marker felt, cursive;
-  text-transform: hover;
-  text-decoration: blink;
-  text-shadow: 2px 2px 4px #000000;
-  color: #a1a7a8;
-  background-color: #653276;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  background-color: transparent;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,22 +17,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.App-body {
+.Body {
   font-family: Marker Felt, cursive;
   font-weight: bold;
   font-size: 20px;
@@ -57,7 +28,7 @@
   margin: 20px;
   color: #f0f0f0;
 }
-.App-footer {
+.Footer {
   font-family: Marker Felt, cursive;
   font-weight: bold;
   font-size: 16px;
