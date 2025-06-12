@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import './footer.css';
 
-function App() {
+function Footer() {
   return (
-    <div className="App">
-      <footer className="App-footer">
+    <div className="footer">
+      <footer className="footer">
         public communication: shadowboxstore@gmail.com
       </footer>
     </div>
   );
 }
 
-export default App;
+export default Footer;
