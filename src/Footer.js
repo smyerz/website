@@ -3,8 +3,8 @@ import './footer.css';
 
 function Footer() {
   return (
-    <div className="footer">
-      <footer className="footer">
+    <div className="Footer">
+      <footer className="Footer">
         public communication: shadowboxstore@gmail.com
       </footer>
     </div>

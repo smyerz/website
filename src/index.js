@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Footer.js';
+import Footer from './Footer.js';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header.js';
 import Body from './Body.js';
