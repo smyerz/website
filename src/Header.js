@@ -8,8 +8,7 @@ function Header() {
      
 <header>
         <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
+        </header>
       </div>
   )
 };
