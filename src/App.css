@@ -1,4 +1,15 @@
 .App {
+  font-family: marker felt, cursive;
+  text-transform: hover;
+  text-decoration: blink;
+  text-shadow: 2px 2px 4px #000000;
+  color: #a1a7a8;
+  background-color: #653276;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -14,7 +25,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:fffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +46,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-body {
+  font-family: Marker Felt, cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: hsl(285, 30%, 28%);
+  line-height: 1.5;
+  margin: 20px;
+  color: #f0f0f0;
+}
+.App-footer {
+  font-family: Marker Felt, cursive;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: hsl(285, 30%, 28%);
+  line-height: 1.5;
+  margin: 20px;
+  color: #f0f0f0;
 }
